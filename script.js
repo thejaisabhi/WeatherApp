@@ -29,4 +29,5 @@ submit.addEventListener("click", (e)=>{
     e.preventDefault()
     getWeather(city.value)
 })
+
 getWeather("Delhi")
